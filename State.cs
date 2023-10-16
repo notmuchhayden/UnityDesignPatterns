@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Patterns.State
 {
-    // »óÅÂ Å¬·¡½ºÀÇ ±âº» ÀÎÅÍÆäÀÌ½º
+    // ìƒíƒœ í´ë˜ìŠ¤ì˜ ê¸°ë³¸ ì¸í„°í˜ì´ìŠ¤
 
     public enum Direction
     {
@@ -133,7 +133,7 @@ namespace Patterns.State
     }
 
 
-    // ½ÇÇà ¼Ò½º ===============================
+    // ì‹¤í–‰ ì†ŒìŠ¤ ===============================
     public class ClientState : MonoBehaviour
     {
         private BikeController _bikeController;
